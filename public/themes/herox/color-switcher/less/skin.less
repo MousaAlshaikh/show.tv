@@ -1,0 +1,64 @@
+/* ===================================
+    About
+====================================== */
+
+/*
+    Theme Name: Herox
+    Theme URI:
+    Author: Themes Industry
+    Author URI:
+    Description: One Page Parallax Template
+    Tags: one page, multipurpose, parallax, creative, html5
+
+ */
+
+/* ===================================
+    Variables
+====================================== */
+
+// Colors
+@colorPrimary: #ff6666;
+@colorSecondary: #b2c81e;
+
+// Mixins
+.animation(@animation) {
+  -webkit-animation: @animation;
+          animation: @animation;
+}
+.transform(@transform) {
+  -webkit-transform: @transform;
+      -ms-transform: @transform; // IE9 only
+          transform: @transform;
+}
+
+
+/* ===================================
+    Styling
+====================================== */
+
+.btn-pink {background: @colorPrimary;border: 2px solid @colorPrimary;}
+.btn-transparent-pink{color: @colorPrimary;background:transparent;border: 2px solid @colorPrimary;}
+.btn-transparent-pink:before{background:@colorPrimary;}
+.main-color{color:@colorPrimary;}
+
+::-webkit-scrollbar,::-webkit-scrollbar-thumb {background-color: @colorPrimary;}
+.nav-line .navbar-nav .nav-link:before,.nav-line-left .navbar-nav .nav-link:before,.hr-line,.prog-item .skills-progress span,.team-box label,.team-box label:hover,.team-box #rad2 + .team-box label:hover,
+.team-two-right-nav, .team-two-left-nav,.overlay:before,.portfolio-three .item-img-overlay:before,.price-item.center,.button-play-two,.owl-testimonial .owl-item.center .testimonial-item .testimonial-quote,
+.owl-testimonial .owl-dots .owl-dot.active span,.owl-testimonial .owl-dots .owl-dot:hover span,.button-play,.widget .search-btn,.blog-tags li a:hover,.blog-tags li a:focus,.side-menu,
+.scroll-top-arrow,.scroll-top-arrow:focus,.heroex .tp-count:before
+{background: @colorPrimary;}
+a:hover, a:active,.top-center-logo .navbar-nav .nav-link:hover,
+.header-appear .top-center-logo .navbar-nav .nav-link:hover,.top-left-logo .navbar-nav .nav-link:hover,
+.header-appear .top-left-logo .navbar-nav .nav-link:hover,.navbar-top-default .navbar-nav .nav-link:hover,
+.header-appear .navbar-top-default .navbar-nav .nav-link:hover,.port_head,.portfolio-three .filtering .active,
+.button-play-two:hover,.button-play-two:focus,.button-play-two:hover i,.button-play-two:focus i,.owl-testimonial .owl-item.center .testimonial-item .text-small,
+.button-play:hover,.button-play:focus,.button-play:hover i,.button-play:focus i,.our-address .pickus,.blog-pagination li a:hover,.blog-pagination li.active a,.blog-pagination li a:focus
+{color: @colorPrimary;}
+
+.scroll-down .triangle-down{border-top: 10px solid @colorPrimary;;}
+.owl-testimonial .owl-dots .owl-dot span {border: 1px solid @colorPrimary;}
+.blog-box h4 {border-left: 2px solid @colorPrimary;}
+
+.cssload-inner.cssload-one {border-bottom: 5px solid @colorPrimary;}
+.cssload-inner.cssload-two {border-right: 5px solid @colorPrimary;}
+.cssload-inner.cssload-three {border-top: 5px solid @colorPrimary;}
