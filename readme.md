@@ -1,16 +1,21 @@
 **Simple TV SHOW Website**
 
+access admin area by the following prefix in the url `/admin`
+
+- username : admin
+
+- password : admin
 
 -installation steps
 -
-1 - clone the repo
+- clone the repo
 
-2 - create database
+- create database
 
-3 - add database connection credential in `.env` file
+- add database connection credential in `.env` file
 
-4 - run migration command `php artisan migrate`
+- run `composer install` 
 
-5 - run `composer install` 
+- run migration command `php artisan migrate`
 
-6 - serve the project and enjoy testing
+- serve the project and enjoy testing
